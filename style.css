@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    margin-right: 5px;
+    color: black;
+}
+.nav-logo{
+    color:darkgreen;
+}
+.nav-last a{
+    text-decoration: none;
+    color: darkgreen;
+}
+.top-most{
+    min-height: 60vh;
+    background-image: url(search\ img.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.top-most-para1{
+    text-align: center;
+    font-size: 2rem;
+    padding: 40px 0px 20px 0px;
+}
+.top-most-box{
+    display: flex;
+    justify-content: center;
+}
+.top-most-box input{
+    border: 0;
+    width: 250px;
+    padding: 8px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.top-most-box button{
+    border: 0;
+    width: 80px;
+    background-color: darkgreen;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: white;
+}
+.top-most-para2{
+    text-align: center;
+    padding: 40px 0px;
+}
+.btn-c {
+   text-align: center;
+    
+}
+.btn-c button{
+    padding: 8px;
+    width: 150px;
+    border: 0;
+    background-color: darkgreen;
+    color: white;
+    margin: 20px 0px;
+}
+.box-row{
+    min-height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.data-box,.img-box{
+    width: 600px;
+}
+.title-1{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.para-2{
+    font-size: 1.5rem;
+}
+.btn button{
+    background-color: darkgreen;
+    color: white;
+    border: 0;
+    padding: 10px;
+    margin-top: 20px;
+}
+.img-box img{
+    max-width: 100%;
+}
+.last-box{
+    min-height: 40vh;
+    background-color: darkgreen;
+    color: white;
+
+}
+.last-box-title{
+    font-size: 1.5rem;
+     padding: 20px 0px 20px 50px;
+}
+.last-box-para{
+   padding:0px 0px 20px 50px;
+}
+.last-box-para input{
+    padding: 5px;
+    width: 350px;
+    border: 0;
+    border-radius: 15px;
+}
+
+
+/* mobile media query */
+@media screen and (max-width:425px){
+    nav{
+        /* border: 1px solid red; */
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 10px;
+
+
+    }
+    ul{
+        display: flex;
+    }
+    
+    ul li a{
+        display: none;
+        /* font-size: 1rem; */
+    }
+    .nav-logo{
+        font-size: 1.5rem;
+    }
+    .nav-last{
+        font-size: 1.5rem;
+        /* border: 1px solid gray; */
+        color: lightcoral;
+
+    }
+    .title-1{
+        font-size: 1.5 rem;
+        padding-left: 10px;
+    }
+    .para-2{
+        font-size: 1rem;
+        padding-left: 10px;
+    }
+    .box-row{
+         margin: 10px 0px 10px 0px;
+         padding-left: 10px;
+    }
+    .last-box{
+        width: 100%;
+        
+    }
+
+}
+
